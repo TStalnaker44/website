@@ -1,0 +1,163 @@
+
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #222;
+    text-align: center;
+    z-index: 1;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.dropdown-content li{
+    margin: auto;
+}
+
+.dropdown-content li a{
+    font-size: 12pt;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hamburger menu styles */
+.icon {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+
+    .top-bar {
+        height: 10px;
+        background-color: #222;
+        height: 75px;
+        display: block;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #222;
+        z-index: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+
+    nav a:active {
+        background-color: #444;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+}

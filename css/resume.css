@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.section-container h2 {
+    /* background-color: #cdd; */
+    border-radius: 10px 10px 0 0;
+    color: #222;
+    font-size: 28px;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-container .topul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.section-container .topul .topli {
+    margin-left: 10px;
+    padding: 10px;
+    text-indent: -3.5em; /* align text with the bullet */
+    padding-left: 4em; /* add space between the bullet and text */
+}
+
+.normal {
+    margin-left: 10px;
+    padding: 2px;
+    text-indent: 0;
+}
+
+.section-container .topul .topli:last-child {
+    border-bottom: none;
+}
+
+.edu:before {    
+    font-family: 'FontAwesome';
+    content: '\f19d';
+    margin-right: 15px;
+    color: #222;
+}
+
+.award:before {    
+    font-family: 'FontAwesome';
+    content: '\f091';
+    margin-right: 15px;
+    color: #222;
+}
+
+
+.code:before {    
+    font-family: 'FontAwesome';
+    content: '\f121';
+    margin-right: 15px;
+    color: #222;
+}
+
+.cert:before {    
+    font-family: 'FontAwesome';
+    content: '\f0a3';
+    margin-right: 15px;
+    color: #222;
+}
+
+
+.work:before {    
+    font-family: 'FontAwesome';
+    content: '\f0b1';
+    margin-right: 15px;
+    color: #222;
+}
+
+.position:before {    
+    font-family: 'FontAwesome';
+    content: '\f007';
+    margin-right: 15px;
+    color: #222;
+}
+
+.workshop:before {    
+    font-family: 'FontAwesome';
+    content: '\f109';
+    margin-right: 15px;
+    color: #222;
+}
+
+.nested-div{
+  margin-top:10px; 
+  margin-left:40px; 
+  margin-right:40px; 
+  color:#222; 
+  background-color:#eee; 
+  padding:10px; 
+  padding-left:40px; 
+  border-radius: 10px;
+}

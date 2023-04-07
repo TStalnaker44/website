@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="scripts/navbar.js"></script> 
+    <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .section-container {
+                background-color: #f7f7f7;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 20px auto;
+                max-width: 800px;
+                overflow: hidden;
+                padding: 20px;
+            }
+            
+            .section-container h2 {
+                /* background-color: #cdd; */
+                border-radius: 10px 10px 0 0;
+                color: #222;
+                font-size: 20px;
+                margin: 0;
+                padding: 20px;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .section-container .published{
+                color: #222;
+                font-size: 18px;
+                margin-top: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .section-container .abstract {
+                margin: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
+                color: #2a2a2a;
+            }
+            
+            .section-container .full {
+                margin: 15px;
+                text-align: right;
+                margin-bottom: 5px;
+            }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="top-bar"></div>
+<header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li class="dropdown">
+                <a href="resume.html">Resume/CV</a>
+                <ul class="dropdown-content">
+                    <li><a href="resume.html#experience">Experience</a></li>
+                    <li><a href="resume.html#education">Education</a></li>
+                    <li><a href="resume.html#licenses">Certifications</a></li>
+                    <li><a href="resume.html#awards">Honors</a></li>
+                    <li><a href="resume.html#activities">Activities</a></li>
+                    <li><a href="resume.html#workshops">Workshops</a></li>
+                </ul>
+
+                </li>
+                <li><a href="projects.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+<i class="fa fa-bars"></i>
+</a>
+    <div class="section-container">
+      <h1>Publications</h1>
+      <ul></ul>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-header">Procedural Generation of Metroidvania Style Levels (Thesis)</h2>
+        <h3 class="published">Washington and Lee Library - 2020</h3>
+        <div class="abstract">Video game maps can become dull with repeated play-throughs and handcrafting 
+            a variety of maps can be a tedious and time consuming process. This is especially true for games 
+            of the Metroidvania genre, games which focus on exploration. If there was a way to adequately automate 
+            the creation of levels, then in theory, the games would have enhanced replay value. Previous researchers 
+            have used artificial intelligence and genetic programming techniques to engineer new mappings. But, is it 
+            possible to procedurally generate levels using graph theory and without using training examples or simply 
+            placing pre-built assets? In this paper we propose a system to model Metroidvania maps as directional graph 
+            structures. The system uses an algorithm that crafts graphs meeting all of the constraints necessary for level
+             generation. These generated graphs are verified as winnable with the keys assigned to appropriate nodes. Once 
+             the graph has been created and validated it is rendered into a 2-D level using pygame. During the rendering 
+             process, the game demo constructs the walls and platforms essential to the game. We were able to procedurally 
+             generate Metroidvania levels of varying sizes and gating techniques using this sequence of steps.</div>
+        <div class="full"><a href="https://dspace.wlu.edu/handle/11021/34738" target="_blank">Full text</a></div>
+    </div>
+
+  </body>
+</html>
