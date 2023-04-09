@@ -1,7 +1,7 @@
 
 import re, os
 
-files = ["index", "publications", "resume", "progress", "about"]
+files = ["index", "publications", "resume", "progress", "about", "contact"]
 
 def main():
     for file in files:
