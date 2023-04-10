@@ -1,6 +1,12 @@
 <html>
   <head>
-    <include src="shared.html"/>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.75">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<script src="scripts/navbar.js"></script> 
     <link rel="stylesheet" href="css/about.css">
     <style>
         .single-image{
@@ -10,7 +16,42 @@
   </head>
   <body>
 
-    <include src="navbar.html"/>
+    <div class="top-bar"></div>
+<header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html">About</a>
+                    <ul class="dropdown-content">
+                        <li><a href="about.html#interests">Interests</a></li>
+                        <li><a href="about.html#hobbies">Hobbies</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li class="dropdown">
+                    <a href="resume.html">Resume/CV</a>
+                    <ul class="dropdown-content">
+                        <li><a href="resume.html#experience">Experience</a></li>
+                        <li><a href="resume.html#education">Education</a></li>
+                        <li><a href="resume.html#licenses">Certifications</a></li>
+                        <li><a href="resume.html#awards">Honors</a></li>
+                        <li><a href="resume.html#activities">Activities</a></li>
+                        <li><a href="resume.html#workshops">Workshops</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+<i class="fa fa-bars"></i>
+</a>
 
     <div class="section-container">
       <h1>Projects</h1>
