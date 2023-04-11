@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <include src="shared.html"/>
+        <style>
+            .resources{
+                list-style-type: disc;
+                margin-left: 30px;
+            }
+            .content{
+                margin-left: 40px;
+                margin-top: 20px;
+            }
+        </style>
     </head>
     <body>
+        <include src="navbar.html"/>
+        <div class="content">
+            <h1>Resources</h1>
+            <ul class="resources">
+
+                <h3>Character Encodings</h3>
+                <li><a href="https://www.asciitable.com/">ASCII Table</a></li>
+                <li><a href="https://home.unicode.org/">Unicode Reference</a></li>
+                <li><a href="https://unicode.org/emoji/charts/full-emoji-list.html">Unicode for Emojis</a></li>
+
+                <h3>Regular Expressions</h3>
+                <li><a href="https://www.regexplanet.com/">Regex Planet</a></li>
+                <li><a href="https://www.rexegg.com/regex-quickstart.html">Regular Expression Cheat Sheet</a></li>
+
+                <h3>Other</h3>
+                <li><a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
+                <li><a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Diffusion Image Generation</a></li>
+                <li><a href="https://loremipsum.io/">Lorem Ipsum Generator</a></li>
+            </ul>
+        </div>
         
     </body>
 </html>

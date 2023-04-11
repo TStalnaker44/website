@@ -23,6 +23,7 @@ def replaceIncludes(content, matches):
     return content
 
 def writeToFile(file_name, content):
+    file_name = file_name.replace(".html", "")
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(content)
 
