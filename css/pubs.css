@@ -48,3 +48,12 @@ h1 {
     text-align: right;
     margin-bottom: 5px;
 }
+
+.abstract {
+    margin-left: 5px;
+    color: #2a2a2a;
+}
+
+summary {
+    cursor: pointer;
+}

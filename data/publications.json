@@ -1,0 +1,285 @@
+[
+    {
+        "title": "Procedural Generation of Metroidvania Style Levels",
+        "authors":[
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            }
+        ],
+        "venue":{
+            "name":"Washington and Lee University",
+            "abbr":"W&L",
+            "link":"https://www.wlu.edu/"
+        },
+        "info":{
+            "pages":"Honors Thesis",
+            "year":"2020"
+        },
+        "pdf_link":"resources/honors-thesis.pdf",
+        "abstract":"Video game maps can become dull with repeated play-throughs and handcrafting a variety of maps can be a tedious and time consuming process. This is especially true for games of the Metroidvania genre, games which focus on exploration. If there was a way to adequately automate the creation of levels, then in theory, the games would have enhanced replay value. Previous researchers have used artificial intelligence and genetic programming techniques to engineer new mappings. But, is it possible to procedurally generate levels using graph theory and without using training examples or simply placing pre-built assets? In this paper we propose a system to model Metroidvania maps as directional graph structures. The system uses an algorithm that crafts graphs meeting all of the constraints necessary for level generation. These generated graphs are verified as winnable with the keys assigned to appropriate nodes. Once the graph has been created and validated it is rendered into a 2-D level using pygame. During the rendering process, the game demo constructs the walls and platforms essential to the game. We were able to procedurally generate Metroidvania levels of varying sizes and gating techniques using this sequence of steps."
+    },
+    {
+        "title": "BOMs Away! Inside the Minds of Stakeholders: A Comprehensive Study of Bills of Materials for Software Systems",
+        "authors":[
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Nathan", 
+                "last":"Wintersgill"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Massimiliano", 
+                "last":"Di Penta"
+            },
+            {
+                "first": "Daniel", 
+                "last":"M German"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"Proceedings of the 46th IEEE/ACM International Conference on Software Engineering",
+            "abbr":"ICSE'24",
+            "link":"https://conf.researchr.org/home/icse-2024"
+        },
+        "info":{
+            "pages":"pp. 1-13",
+            "year":"2024"
+        },
+        "pdf_link":"resources/icse24.pdf",
+        "abstract":"Software Bills of Materials (SBOMs) have emerged as tools to facilitate the management of software dependencies, vulnerabilities, licenses, and the supply chain. While significant effort has been devoted to increasing SBOM awareness and developing SBOM formats and tools, recent studies have shown that SBOMs are still an early technology not yet adequately adopted in practice. Expanding on previous research, this paper reports a comprehensive study that investigates the current challenges stakeholders encounter when creating and using SBOMs. The study surveyed 138 practitioners belonging to five stakeholder groups (practitioners familiar with SBOMs, members of critical open source projects, AI/ML, cyber-physical systems, and legal practitioners) using differentiated questionnaires, and interviewed 8 survey respondents to gather further insights about their experience. We identified 12 major challenges facing the creation and use of SBOMs, including those related to the SBOM content, deficiencies in SBOM tools, SBOM maintenance and verification, and domain-specific challenges. We propose and discuss 4 actionable solutions to the identified challenges and present the major avenues for future research and development."
+    },
+    {
+        "title": "\"The Law Doesn’t Work Like a Computer\": Exploring Software Licensing Issues Faced by Legal Practitioners",
+        "authors":[
+            {
+                "first": "Nathan", 
+                "last":"Wintersgill"
+            },
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Laura", 
+                "last":"A. Heymann"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"Proceedings of the ACM International Conference on the Foundations of Software Engineering",
+            "abbr":"FSE'24",
+            "link":"https://2024.esec-fse.org/"
+        },
+        "info":{
+            "pages":"pp. 882-905",
+            "year":"2024"
+        },
+        "pdf_link":"resources/fse24.pdf",
+        "abstract":"Most modern software products incorporate open source components, which requires compliance with each component's licenses. As noncompliance can lead to significant repercussions, organizations often seek advice from legal practitioners to maintain license compliance, address licensing issues, and manage the risks of noncompliance. While legal practitioners play a critical role in the process, little is known in the software engineering community about their experiences within the open source license compliance ecosystem. To fill this knowledge gap, a joint team of software engineering and legal researchers designed and conducted a survey with 30 legal practitioners and related occupations and then held 16 follow-up interviews.  We identified different aspects of OSS license compliance from the perspective of legal practitioners, resulting in 14 key findings in three main areas of interest: the general ecosystem of compliance, the specific compliance practices of legal practitioners, and the challenges that legal practitioners face. We discuss the implications of our findings.",
+        "award":"ACM SIGSOFT Distinguished Paper Award"
+    },
+    {
+        "title": "Bridging the Quantum Divide: Aligning Academic and Industry Goals in Software Engineering ",
+        "authors":[
+            {
+                "first": "Jake", 
+                "last":"Zappin"
+            },
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"Proceedings of the 6th International Workshop on Quantum Software Engineering",
+            "abbr":"Q-SE'25",
+            "link":"https://conf.researchr.org/home/icse-2025/q-se-2025"
+        },
+        "info":{
+            "pages":"Position paper, pp. 43-47",
+            "year":"2025"
+        },
+        "pdf_link":"resources/qse25.pdf",
+        "abstract":"This position paper examines the substantial divide between academia and industry within quantum software engineering. For example, while academic research related to debugging and testing predominantly focuses on a limited subset of primarily quantum-specific issues, industry practitioners face a broader range of practical concerns, including software integration, compatibility, and real-world implementation hurdles. This disconnect mainly arises due to academia's limited access to industry practices and the often confidential, competitive nature of quantum development in commercial settings. As a result, academic advancements often fail to translate into actionable tools and methodologies that meet industry needs. By analyzing discussions within quantum developer forums, we identify key gaps in focus and resource availability that hinder progress on both sides. We propose collaborative efforts aimed at developing practical tools, methodologies, and best practices to bridge this divide, enabling academia to address the application-driven needs of industry and fostering a more aligned, sustainable ecosystem for quantum software development."
+    },
+    {
+        "title": "When Quantum Meets Classical: Characterizing Hybrid Quantum-Classical Issues Discussed in Developer Forums",
+        "authors":[
+            {
+                "first": "Jake", 
+                "last":"Zappin"
+            },
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"Proceedings of the 47th IEEE/ACM International Conference on Software Engineering",
+            "abbr":"ICSE'25",
+            "link":"https://conf.researchr.org/home/icse-2025"
+        },
+        "info":{
+            "pages":"pp. 2931-2943",
+            "year":"2025"
+        },
+        "pdf_link":"resources/icse25.pdf",
+        "abstract":"Recent advances in quantum computing have sparked excitement that this new computing paradigm could solve previously intractable problems.  However, due to the faulty nature of current quantum hardware and quantum-intrinsic noise, the full potential of quantum computing is still years away.  Hybrid quantum-classical computing has emerged as a possible compromise that achieves the best of both worlds.  In this paper, we look at hybrid quantum-classical computing from a software engineering perspective and present the first empirical study focused on characterizing and evaluating recurrent issues faced by developers of hybrid quantum-classical applications. The study comprised a thorough analysis of 531 real-world issues faced by developers - including software faults, hardware failures, quantum library errors, and developer mistakes - documented in discussion threads from forums dedicated to quantum computing.  By qualitatively analyzing such forum threads, we derive a comprehensive taxonomy of recurring issues in hybrid quantum-classical applications that can be used by both application and platform developers to improve the reliability of hybrid applications. The study considered how these recurring issues manifest and their causes, determining that hybrid applications are crash-dominant (74% of studied issues) and that errors were predominantly introduced by application developers (70% of issues). We conclude by identifying recurring obstacles for developers of hybrid applications and actionable recommendations to overcome them."
+    },
+    {
+        "title": "Developer Perspectives on Licensing and Copyright Issues Arising from Generative AI for Software Development",
+        "authors":[
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Nathan", 
+                "last":"Wintersgill"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Laura", 
+                "last":"A. Heymann"
+            },
+
+            {
+                "first": "Massimiliano", 
+                "last":"Di Penta"
+            },
+            {
+                "first": "Daniel", 
+                "last":"M German"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"ACM Transactions on Software Engineering and Methodology",
+            "abbr":"TOSEM",
+            "link":"https://dl.acm.org/journal/tosem"
+        },
+        "info":{
+            "pages":"pp. to appear",
+            "year":"2025"
+        },
+        "pdf_link":"https://dl.acm.org/doi/pdf/10.1145/3743133",
+        "abstract":"Generative AI (GenAI) tools have already started to transform software development practices.  Despite their utility in tasks such as writing code, the use of these tools raises important legal questions and potential risks, particularly those associated with copyright law.  In the midst of this uncertainty, this paper presents a study jointly conducted by software engineering and legal researchers that surveyed 574 GitHub developers who use GenAI tools for development activities. The survey and follow-up interviews probed the developers’ opinions on emerging legal issues as well as their perception of copyrightability, ownership of generated code, and related considerations. We also investigate potential developer misconceptions, the impact of GenAI on developers' work, and developers' awareness of licensing/copyright risks. Qualitative and quantitative analysis showed that developers' opinions on copyright issues vary broadly and that many developers are aware of the nuances these legal questions involve. We provide: (1) a survey of 574 developers on the licensing and copyright aspects of GenAI for coding, (2) a snapshot of practitioners' views at a time when GenAI and perceptions of it are rapidly evolving, and (3) an analysis of developers' views, yielding insights and recommendations that can inform future regulatory decisions in this evolving field."
+    },
+    {
+        "title": "Semantic Search for Ancient Inscriptions",
+        "authors":[
+            {
+                "first": "Micah", 
+                "last":"Tongen"
+            },
+            {
+                "first": "Sara", 
+                "last":"Sprenkle"
+            },
+            {
+                "first": "Rebecca", 
+                "last":"Benefiel"
+            },
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            }
+        ],
+        "venue":{
+            "name":"Proceedings of the 6th Conference on Computational Humanities Research",
+            "abbr":"CHR'25",
+            "link":"https://2025.computational-humanities-research.org/"
+        },
+        "info":{
+            "pages":"pp. 513-525",
+            "year":"2025"
+        },
+        "pdf_link":"resources/chr25.pdf",
+        "abstract":"Digital humanities research has revolutionized the study of ancient inscriptions by providing researchers with access to immense epigraphic corpora. However, traditional search methods for these databases rely primarily on exact or fuzzy keyword matching, limiting researchers' ability to find semantically related inscriptions. This paper presents a new approach to searching ancient inscriptions using vector embeddings and semantic similarity, implemented through a hybrid search system that combines semantic search with keyword matching and large language model re-ranking. Our system processes Greek and Latin inscriptions from the Ancient Graffiti Project database, embedding them in a high-dimensional vector space that captures semantic meaning beyond exact text matches. Our process is designed for reproducibility, using open data and code, and shows promise in preliminary evaluation. Our results demonstrate the system's capability to identify thematically related inscriptions that would be missed by traditional search methods, offering new possibilities for epigraphic research and discovery."
+    },
+    {
+        "title": "An Empirical Analysis of Machine Learning Model and Dataset Documentation, Supply Chain, and Licensing Challenges on Hugging Face",
+        "authors":[
+            {
+                "first": "Trevor", 
+                "last":"Stalnaker"
+            },
+            {
+                "first": "Nathan", 
+                "last":"Wintersgill"
+            },
+            {
+                "first": "Oscar", 
+                "last":"Chaparro"
+            },
+            {
+                "first": "Laura", 
+                "last":"A. Heymann"
+            },
+
+            {
+                "first": "Massimiliano", 
+                "last":"Di Penta"
+            },
+            {
+                "first": "Daniel", 
+                "last":"M German"
+            },
+            {
+                "first": "Denys", 
+                "last":"Poshyvanyk"
+            }
+        ],
+        "venue":{
+            "name":"ACM Transactions on Software Engineering and Methodology",
+            "abbr":"TOSEM",
+            "link":"https://dl.acm.org/journal/tosem"
+        },
+        "info":{
+            "pages":"pp. to appear",
+            "year":"2025"
+        },
+        "pdf_link":"resources/tosem-supply-chain.pdf",
+        "abstract":"The last decade has seen widespread adoption of Machine Learning (ML) components in software systems. This has occurred in nearly every domain, from natural language processing to computer vision. These ML components range from relatively simple neural networks to complex and resource-intensive large language models.  However, despite this widespread adoption, little is known about the supply chain relationships that produce these models, which can have implications for compliance and security.  In this work, we conducted an extensive analysis of 760,460 models and 175,000 datasets extracted from the popular model-sharing site Hugging Face. First, we evaluate the current state of documentation in the Hugging Face supply chain, report real-world examples of shortcomings, and offer actionable suggestions for improvement.  Next, we analyze the underlying structure of the existing supply chain.  Finally, we explore the current licensing landscape against what was reported in previous work and discuss the unique challenges posed in this domain.  Our results motivate multiple research avenues, including the need for better license management for ML models/datasets, better support for model documentation, and automated inconsistency checking and validation.  We make our research infrastructure and dataset available to facilitate future research."
+    }
+]
